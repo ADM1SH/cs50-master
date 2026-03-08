@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="./style.css" media="all">
+</head>
+<body>
+    <div class="actions">
+        <a href="./advanced_search.html" class="btn btn--secondary">Advanced Search</a>
+        <a href="./imghp.html" class="btn btn--secondary">Image Search</a>
+    </div>
+
+    <main>
+        <div class="main__title">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="Google">
+        </div>
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" placeholder="Search Google">
+            <div>
+                <input class="btn btn--primary" type="submit" value="Google Search">
+            <div>
+                <input type="hidden" name="btnI" value="1">
+                <input class="btn btn--primary" type="submit" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
